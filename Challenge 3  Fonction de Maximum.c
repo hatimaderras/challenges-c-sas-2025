@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 void larger(int a,int b){
-    // condition to find whos the smallest number
+    // condition to find whos the largest number
    if (a>b){
-    printf("the smallest number is:%d",b);
-   }else printf("the smallest number is :%d",a);
+    printf("the smallest number is:%d",a);
+   }else printf("the Largest number is :%d",b);
 }
 int main (){
     int num1,num2;
